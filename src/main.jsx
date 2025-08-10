@@ -67,14 +67,18 @@ const router = createBrowserRouter([
         path: '/register',
         element: <Register></Register>
       },
-      {
+     
+
+    ]
+
+    
+  },
+   {
         path:'*',
         element:<NotFound></NotFound>
       }
-
-    ]
-  },
 ]);
+
 
 
 
