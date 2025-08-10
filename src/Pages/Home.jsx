@@ -6,6 +6,7 @@ import NewsletterSection from '../Components/NewsletterSection';
 import HighLight from '../Components/HighLight';
 import CategoryEvent from '../Components/CategoryEvent';
 import StaticBlog from '../Components/StaticBlog';
+import Review from '../Components/Review';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <CategoryEvent></CategoryEvent>
             <NewsletterSection></NewsletterSection>
             <StaticBlog></StaticBlog>
+            <Review></Review>
         </div>
     );
 };
