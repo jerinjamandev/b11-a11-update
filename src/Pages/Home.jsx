@@ -19,6 +19,7 @@ const Home = () => {
             <NewsletterSection></NewsletterSection>
             <StaticBlog></StaticBlog>
             <Review></Review>
+            
         </div>
     );
 };

@@ -22,6 +22,7 @@ import ManageEvents from './Pages/Manage';
 import EventDetails from './Pages/EventDetails';
 import UpdateEvent from './Pages/UpdateEvent';
 import MyJoinedEvents from './Pages/MyJoinedEvents';
+import NotFound from './Pages/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -65,7 +66,12 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register></Register>
+      },
+      {
+        path:'*',
+        element:<NotFound></NotFound>
       }
+
     ]
   },
 ]);
